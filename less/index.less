@@ -49,13 +49,63 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+@import "variables.less";
+@import "mixins.less";
 * {
     box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	font-size:62.5%;
 }
-body{
+.container{
+	margin: 0 auto;
+	width: 80%;
+	
+	.header{
+		.menu{
+			nav{
+				display: flex;
+				flex-direction: column;
+				background-color: @best-blue;
+				width: 20rem;
+				height: 20rem;
+				float: right;
+				a{
+					font-size: 2.1rem;
+					padding: 5%;
+					text-decoration: none;
+					color: @silver-sand;
+					font-weight: bold;
+					.center();
+					.bordered();
+					
+				}
+			}
+			
+		}
+		
+	}
+	#home{
+		border: 1px solid green;
+		display:flex;
+		flex-direction: row;
+		flex-wrap:wrap;
+		h1{
+			font-size: 3rem;
+			
+			border: 1px solid pink;
+		}
+		.main-img{
+			border: .5rem solid rgb(6, 52, 121);
+			border-radius: 50%;
+			width: 30rem;
+			height: 30rem;
+			align-items: flex-end;
+			
+		}
+	}
+	
+}
 
-}
