@@ -138,14 +138,26 @@ body {
 .container {
   margin: 0 auto;
   width: 80%;
+  background-color: #b2bbc0;
+}
+.container p {
+  font-size: 1.6rem;
 }
 .container .header .menu nav {
   display: flex;
   flex-direction: column;
   background-color: #09B4EC;
   width: 20rem;
-  height: 20rem;
+  height: 30.775rem;
   float: right;
+}
+.container .header .menu nav .m {
+  display: flex;
+}
+.container .header .menu nav .m .menu-img {
+  width: 3rem;
+  height: 3rem;
+  justify-content: flex-end;
 }
 .container .header .menu nav a {
   font-size: 2.1rem;
@@ -165,14 +177,23 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.container #home .think {
+  width: 100%;
+  background-color: #ffffff;
+}
 .container #home h1 {
-  font-size: 3rem;
+  font-size: 4rem;
+  text-align: center;
+}
+.container #home h2 {
+  font-size: 2.5rem;
   border: 1px solid pink;
+  text-align: center;
 }
 .container #home .main-img {
   border: 0.5rem solid #063479;
   border-radius: 50%;
-  width: 30rem;
-  height: 30rem;
+  width: 100%;
+  height: 20rem;
   align-items: flex-end;
 }

@@ -62,16 +62,29 @@ html, body {
 .container{
 	margin: 0 auto;
 	width: 80%;
+	background-color: rgb(178, 187, 192);
+	p{
+		font-size: 1.6rem;
+	}
 	
 	.header{
 		.menu{
+			
 			nav{
 				display: flex;
 				flex-direction: column;
 				background-color: @best-blue;
 				width: 20rem;
-				height: 20rem;
+				height: 30.775rem;
 				float: right;
+				.m{
+					display:flex;
+					.menu-img{
+						width: 3rem;
+						height: 3rem;
+						justify-content: flex-end;
+					}
+				}
 				a{
 					font-size: 2.1rem;
 					padding: 5%;
@@ -92,16 +105,25 @@ html, body {
 		display:flex;
 		flex-direction: row;
 		flex-wrap:wrap;
+		.think{
+			width:100%;
+			background-color: rgb(255, 255, 255);
+		}
 		h1{
-			font-size: 3rem;
-			
+			font-size: 4rem;			
+			text-align: center;
+		
+		}
+		h2{
+			font-size: 2.5rem;			
 			border: 1px solid pink;
+			text-align: center;	
 		}
 		.main-img{
 			border: .5rem solid rgb(6, 52, 121);
 			border-radius: 50%;
-			width: 30rem;
-			height: 30rem;
+			width: 100%;
+			height: 20rem;
 			align-items: flex-end;
 			
 		}
