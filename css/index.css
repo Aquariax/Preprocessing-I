@@ -138,7 +138,7 @@ body {
 .container {
   margin: 0 auto;
   width: 80%;
-  background-color: #b2bbc0;
+  background-image: linear-gradient(rgba(248, 248, 248, 0.575), rgba(32, 32, 228, 0.637), rgba(97, 230, 186, 0.445));
 }
 .container p {
   font-size: 1.6rem;
@@ -172,7 +172,6 @@ body {
   border-bottom: 1px solid #ffffff;
 }
 .container #home {
-  border: 1px solid green;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
